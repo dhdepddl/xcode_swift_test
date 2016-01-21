@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="logoList" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yfV-6K-yMT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="prototype1" id="uh2-g5-sXk">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uh2-g5-sXk" id="5Ph-pK-0bQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yfV-6K-yMT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6UE-AT-JpC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yfV-6K-yMT" secondAttribute="trailing" constant="-10" id="6k6-Ks-cyO"/>
+                            <constraint firstItem="yfV-6K-yMT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="FIl-JJ-bOt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yfV-6K-yMT" secondAttribute="bottom" id="SAh-Ve-YnC"/>
+                            <constraint firstItem="yfV-6K-yMT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-10" id="fs7-9t-pcI"/>
+                            <constraint firstItem="yfV-6K-yMT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="l2i-nS-q2D"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="yfV-6K-yMT"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="SAh-Ve-YnC"/>
+                                <exclude reference="6UE-AT-JpC"/>
+                                <exclude reference="6k6-Ks-cyO"/>
+                                <exclude reference="FIl-JJ-bOt"/>
+                                <exclude reference="fs7-9t-pcI"/>
+                                <exclude reference="l2i-nS-q2D"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="yfV-6K-yMT"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="SAh-Ve-YnC"/>
+                                <include reference="6UE-AT-JpC"/>
+                                <include reference="6k6-Ks-cyO"/>
+                                <include reference="FIl-JJ-bOt"/>
+                                <include reference="fs7-9t-pcI"/>
+                                <include reference="l2i-nS-q2D"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="MyTableView" destination="yfV-6K-yMT" id="BZF-pN-0vK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="355"/>
+        </scene>
+    </scenes>
+</document>
