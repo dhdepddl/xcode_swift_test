@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3FC61C1C51EB4D008B6E23 /* PassCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3FC61B1C51EB4D008B6E23 /* PassCodeViewController.swift */; };
 		0A4AD2171C50860700FAE8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4AD2161C50860700FAE8F6 /* AppDelegate.swift */; };
 		0A4AD2191C50860700FAE8F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4AD2181C50860700FAE8F6 /* ViewController.swift */; };
 		0A4AD21C1C50860700FAE8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4AD21A1C50860700FAE8F6 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3FC61B1C51EB4D008B6E23 /* PassCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassCodeViewController.swift; sourceTree = "<group>"; };
 		0A4AD2131C50860700FAE8F6 /* pincode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pincode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4AD2161C50860700FAE8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A4AD2181C50860700FAE8F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				0A4AD2161C50860700FAE8F6 /* AppDelegate.swift */,
 				0A4AD2181C50860700FAE8F6 /* ViewController.swift */,
 				0A4AD21A1C50860700FAE8F6 /* Main.storyboard */,
+				0A3FC61B1C51EB4D008B6E23 /* PassCodeViewController.swift */,
 				0A4AD2201C50860700FAE8F6 /* Assets.xcassets */,
 				0A4AD2221C50860700FAE8F6 /* LaunchScreen.storyboard */,
 				0A4AD2251C50860700FAE8F6 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3FC61C1C51EB4D008B6E23 /* PassCodeViewController.swift in Sources */,
 				0A4AD21F1C50860700FAE8F6 /* pincode.xcdatamodeld in Sources */,
 				0A4AD2191C50860700FAE8F6 /* ViewController.swift in Sources */,
 				0A4AD2171C50860700FAE8F6 /* AppDelegate.swift in Sources */,
@@ -485,6 +489,7 @@
 				0A4AD2401C50860700FAE8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A4AD2411C50860700FAE8F6 /* Build configuration list for PBXNativeTarget "pincodeTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				0A4AD2431C50860700FAE8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A4AD2441C50860700FAE8F6 /* Build configuration list for PBXNativeTarget "pincodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				0A4AD2461C50860700FAE8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
